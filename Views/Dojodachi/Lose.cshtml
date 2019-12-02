@@ -7,8 +7,6 @@
     <p class="prompt text-center">@ViewBag.Message</p>
   </div>
   <div class="d-flex justify-content-around mt-4">
-    <form asp-action="Index" asp-Controller="Dojodachi" method="post" class="d-inline-flex">
-      <button type="submit" class="btn btn-dark">Restart?</button>
-    </form>
+    <a asp-action="Index" asp-Controller="Dojodachi" class="btn btn-dark">Restart?</a>
   </div>
 </div>
